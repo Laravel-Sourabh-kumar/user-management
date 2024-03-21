@@ -15,9 +15,9 @@ class DatabaseSeeder extends Seeder
         
         $this->call([
             
-         //   UsersTableSeeder::class,
+           UsersTableSeeder::class,
             
-          //  CountriesTableSeeder::class,
+            CountriesTableSeeder::class,
             StatesTableSeeder::class,
             CitiesTableSeeder::class,
         ]);
